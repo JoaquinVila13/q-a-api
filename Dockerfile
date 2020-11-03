@@ -23,4 +23,4 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/ng5-api.ja
 # sudo docker build -t <dockerhub-user>/ng5-api .
 
 # docker run
-# sudo docker run --name <linuxuser>-api -p 8xxx:8080 <dockerhub-user>/ng5-api  
+# sudo docker run --name <linuxuser>-api -p 8xxx:8080 -d <dockerhub-user>/ng5-api  

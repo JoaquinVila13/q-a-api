@@ -26,4 +26,18 @@ public abstract class AuditModel implements Serializable {
     private Date updatedAt;
 
     // Getters and Setters (Omitted for brevity)
+    public Date getCreatedAt() {
+               return createdAt;    
+    }
+    public void setCreatedAt(Date createdAt) {       
+        this.createdAt = createdAt;
+    }   
+    
+    public Date getUpdatedAt() {       
+        return updatedAt;   
+    }  
+    
+    public void setUpdatedAt(Date updatedAt) {        
+        this.updatedAt = updatedAt;    
+    }
 }
