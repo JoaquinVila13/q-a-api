@@ -23,7 +23,6 @@ public class QuestionController {
         return questionRepository.findAll(pageable);
     }
 
-
     @PostMapping("/questions")
     public Question createQuestion(@Valid @RequestBody Question question) {
         return questionRepository.save(question);
