@@ -16,9 +16,9 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<groupId>com.example</groupId>
-	<artifactId>ng5-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>ng5-api</name>
+	<artifactId>postgres-api</artifactId>
+	<version>0.1</version>
+	<name>postgres-demo</name>
 	<description>api ng5</description>
 
 	
